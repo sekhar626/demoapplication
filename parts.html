@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- style.css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+
+    <title>E-Commerce</title>
+</head>
+
+<body id="top">
+    <!-- ==============header menu section starts here============== -->
+    <section class="header_menu" id="header_menu">
+
+    </section>
+    <!-- ==============header menu section ends here============== -->
+
+    <section class="products py-5 my-5" id="products">
+        <div class="container ">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">Products</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3 border-right mb-small-5 filters">
+                    <h4 class="mb-5 border-bottom">Filters</h4>
+                    <div class="filter-section">
+                        <span class="filter text-style">Filter/Sort</span>
+                        <span class="fas fa-angle-double-down icon" data-bs-toggle="collapse"
+                            data-bs-target="#target"></span>
+                        <div id="target" class="collapse show">
+                            <div class="sub-heading">
+                                <span class="filter text-style">Models</span>
+                                <span class="fas fa-angle-double-down icon" data-bs-toggle="collapse"
+                                    data-bs-target="#harsha"></span>
+                                <div id="harsha" class="collapse show sub-heading text-style">
+                                    <div>
+                                        <input type="checkbox" class="option" value="samsung" name="model"><span
+                                            class="filter-options">Samsung</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" value="redmi" name="model"><span
+                                            class="filter-options">Redmi</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" value="sony" name="model"><span
+                                            class="filter-options">Sony</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" value="apple" name="model"><span
+                                            class="filter-options">Apple</span>
+                                    </div>
+
+                                    <div>
+                                        <input type="checkbox" class="option" value="oneplus" name="model"><span
+                                            class="filter-options">One plus</span>
+                                    </div>
+                                    <button onclick="getselectedModels()">get</button>
+                                </div>
+                            </div>
+                            <div class="sub-heading">
+                                <span class="filter text-style">Ratings</span>
+                                <span class="fas fa-angle-double-down icon" data-bs-toggle="collapse"
+                                    data-bs-target="#ntr"></span>
+                                <div id="ntr" class="collapse show sub-heading text-style">
+                                    <div>
+                                        <input type="radio" class="option" name="rating" value="4"><span
+                                            class="filter-options"><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i> 4 and above</span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" class="option" name="rating" value="3"><span
+                                            class="filter-options"><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="far fa-star"></i> 3 and above </span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" class="option" name="rating" value="2"><span
+                                            class="filter-options"><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="far fa-star"></i><i
+                                                class="far fa-star"></i> 2 and above </span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" class="option" name="rating" value="1"><span
+                                            class="filter-options"><i class="fas fa-star"></i><i
+                                                class="far fa-star"></i><i class="far fa-star"></i><i
+                                                class="far fa-star"></i> 1 and above </span>
+                                    </div>
+                                    <button onclick="getselectedRatings()">get</button>
+                                </div>
+                            </div>
+
+                            <div class="sub-heading">
+                                <span class="filter text-style">Colors</span>
+                                <span class="fas fa-angle-double-down icon" data-bs-toggle="collapse"
+                                    data-bs-target="#tarak"></span>
+                                <div id="tarak" class="collapse show sub-heading text-style">
+                                    <div>
+                                        <input type="checkbox" class="option" name="colors" value="blue"><span
+                                            class="filter-options">Blue</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" name="colors" value="black"><span
+                                            class="filter-options">Black</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" name="colors" value="brown"><span
+                                            class="filter-options">brown</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" name="colors" value="red"><span
+                                            class="filter-options">Red</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" class="option" name="colors" value="green"><span
+                                            class="filter-options">Green</span>
+                                    </div>
+                                    <button onclick="getselectedColors()">get</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-9">
+                    <div class="product-item row mb-5"></div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </section>
+
+    <!-- ==============footer starts here============== -->
+    <section class="footer_section pt-5 pb-2 mt-5" id="footer_section">
+    </section>
+    <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+    <!-- ==============footer ends here============== -->
+
+    <script src="/assets/js/nav.js"></script>
+    <!-- <script src="/assets/js/search.js"></script> -->
+    <script src="/assets/js/footer.js"></script>
+    <script src="/assets/js/parts.js"></script>
+    <!-- <script src="/assets/js/filter.js"></script> -->
+</body>
+
+</html>

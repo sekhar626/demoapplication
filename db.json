@@ -1,0 +1,355 @@
+{
+  "users": [
+    {
+      "email": "chandu@gmail.com",
+      "password": "chandu123",
+      "name": "chandu",
+      "id": 1
+    },
+    {
+      "name": "ramana",
+      "email": "ramana@gmail.com",
+      "password": "ramana123",
+      "id": 2
+    },
+    {
+      "name": "cha",
+      "email": "cha@gmail.com",
+      "password": "cha",
+      "id": 8
+    },
+    {
+      "name": "kiran",
+      "email": "kiran@gmail.com",
+      "password": "kiran",
+      "id": 9
+    },
+    {
+      "name": "harsha",
+      "email": "chandanapalliharsha@gmail.com",
+      "password": "@Edureka.co123",
+      "id": 10
+    }
+  ],
+  "allcategories": [
+    {
+      "id": 1,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643656321/iphone_product1_cgnuo7.jpg",
+      "category_type": "devices",
+      "name": "samsung galaxy s21",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 48500
+    },
+    {
+      "category_type": "parts",
+      "id": 2,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699789/accessories_3_s2ojbh.jpg",
+      "name": "samsung galaxy s21",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "blue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 650
+    },
+    {
+      "category_type": "devices",
+      "id": 3,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643651547/iphone_product2_mnka4t.jpg",
+      "name": "samsung galaxy s21",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 52000
+    },
+    {
+      "category_type": "devices",
+      "id": 4,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643651547/iphone_product2_mnka4t.jpg",
+      "name": "samsung galaxy s21",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 45000
+    },
+    {
+      "category_type": "parts",
+      "id": 5,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699761/accessories_2_sojjtc.jpg",
+      "name": "samsung galaxy",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "blue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 900
+    },
+    {
+      "category_type": "accessories",
+      "id": 6,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699593/accessories_1_fmbm6q.jpg",
+      "name": "USB-C Adapter",
+      "rating": 2,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 5000
+    },
+    {
+      "category_type": "accessories",
+      "id": 7,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699761/accessories_2_sojjtc.jpg",
+      "name": "lightening to USB to apple phone",
+      "rating": 4.5,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "on sale",
+        "premium"
+      ],
+      "cost": 1200
+    },
+    {
+      "category_type": "accessories",
+      "id": 8,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699789/accessories_3_s2ojbh.jpg",
+      "name": "USB-C",
+      "rating": 4,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "cost": 2500
+    },
+    {
+      "category_type": "accessories",
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699828/buyback_2_rqotl4.jpg",
+      "name": "USB-C",
+      "rating": 4,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "id": 9,
+      "cost": 3000
+    },
+    {
+      "category_type": "devices",
+      "name": "i phone 13 max pro",
+      "rating": 3.9,
+      "reviews": "2000",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643651547/iphone_product2_mnka4t.jpg",
+      "id": 10,
+      "cost": 120000
+    },
+    {
+      "category_type": "devices",
+      "name": "i phone 13 pro",
+      "rating": 3.9,
+      "reviews": "2000",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643656321/iphone_product1_cgnuo7.jpg",
+      "id": 11,
+      "cost": 80000
+    },
+    {
+      "category_type": "onSale",
+      "name": "i phone 13 pro",
+      "rating": 3.9,
+      "reviews": "2000",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643656321/iphone_product1_cgnuo7.jpg",
+      "id": 12,
+      "cost": 60000
+    },
+    {
+      "category_type": "buyback",
+      "id": 13,
+      "imageLink": "https://res.cloudinary.com/chandu626/image/upload/v1643699789/accessories_3_s2ojbh.jpg",
+      "name": "USB-C",
+      "rating": 4,
+      "reviews": "3,165",
+      "colors": [
+        "white",
+        "orange",
+        "navyblue"
+      ],
+      "operating_system": "Android 10",
+      "display": "6.53 IPS",
+      "display_resolution": "2340 X 1080",
+      "CPU": "mediateck Helio G28,2000MGH,8 core",
+      "RAM_size": "4 Gb",
+      "Built_in_memory": "64 Gb",
+      "tags": [
+        "new",
+        "premium"
+      ],
+      "cost": 500000
+    }
+  ]
+}

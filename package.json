@@ -1,0 +1,15 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "json-server --watch db.json --port 8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
